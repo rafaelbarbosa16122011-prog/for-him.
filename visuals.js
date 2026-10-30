@@ -17,24 +17,24 @@ function loadImage(src) {
 // CHARACTER IMAGES
 
 const characterImage = loadImage("assets/character.png");
-const secondLoverImage = loadImage("assets/2ndlover.png");
+const secondLoverImage = loadImage("2ndlover.png");
 
 const walkFrames = [
-  loadImage("assets/walk1.png"),
-  loadImage("assets/walk2.png"),
-  loadImage("assets/walk3.png"),
-  loadImage("assets/walk4.png")
+  loadImage("walk1.png"),
+  loadImage("walk2.png"),
+  loadImage("walk3.png"),
+  loadImage("walk4.png")
 ];
 
 const sprintFrames = [
   loadImage("assets/sprint1.png"),
   loadImage("assets/sprint2.png"),
   loadImage("assets/sprint3.png"),
-  loadImage("assets/sprint4.png")
+  loadImage("sprint4.png")
 ];
 
 const flowerImage = loadImage("assets/flower.png");
-const backgroundImage = loadImage("assets/background.png");
+const backgroundImage = loadImage("background.png");
 
 
 // ========================================
